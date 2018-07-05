@@ -791,8 +791,6 @@ Text Label 2300 5600 0    50   ~ 0
 AUX0
 Text Label 2300 5700 0    50   ~ 0
 AUX1
-Text Notes 2550 1400 0    50   ~ 0
-TODO:\nroute this to si5342 input?
 $Comp
 L power:GND #PWR0104
 U 1 1 5C0FFFD3
@@ -954,4 +952,6 @@ Wire Wire Line
 	2700 6700 2300 6700
 Text Label 2700 6700 2    50   ~ 0
 HSYNC12
+NoConn ~ 2500 1300
+NoConn ~ 2500 1400
 $EndSCHEMATC
