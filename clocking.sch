@@ -114,13 +114,13 @@ U 1 1 5B47D8CB
 P 5700 2200
 F 0 "Y401" H 5891 2246 50  0000 L CNN
 F 1 "Crystal_GND24" H 5891 2155 50  0000 L CNN
-F 2 "" H 5700 2200 50  0001 C CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
-Text Notes 5400 1950 0    50   ~ 0
-TODO: verify crystal pinout
+Text Notes 4650 1900 0    50   ~ 0
+TODO: verify crystal package and add part number
 Wire Wire Line
 	6900 1600 6900 1900
 Wire Wire Line
@@ -881,4 +881,38 @@ Text Label 8100 2100 0    50   ~ 0
 OUT0_P
 Text Label 8100 2200 0    50   ~ 0
 OUT0_N
+Wire Wire Line
+	5850 2200 6500 2200
+Wire Wire Line
+	5550 2200 5550 2500
+Wire Wire Line
+	5550 2500 5950 2500
+Wire Wire Line
+	5950 2500 5950 2300
+Wire Wire Line
+	5950 2300 6500 2300
+Wire Wire Line
+	5700 2400 6500 2400
+Wire Wire Line
+	5700 2000 5900 2000
+Text Label 6500 2200 2    50   ~ 0
+XA
+Text Label 6500 2300 2    50   ~ 0
+XB
+Wire Wire Line
+	5900 2000 5900 2100
+Wire Wire Line
+	5900 2100 6500 2100
+Wire Wire Line
+	5700 2000 5450 2000
+Wire Wire Line
+	5450 2000 5450 2400
+Wire Wire Line
+	5450 2400 5700 2400
+Connection ~ 5700 2000
+Connection ~ 5700 2400
+Text Label 6500 2100 2    50   ~ 0
+XGND
+Text Label 6500 2400 2    50   ~ 0
+XGND
 $EndSCHEMATC
