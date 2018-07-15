@@ -476,8 +476,6 @@ Text Label 2500 2600 0    50   ~ 0
 FB1V0
 Text Label 2500 5600 0    50   ~ 0
 FB1V8
-Text Notes 2350 4900 2    50   ~ 0
-TODO: fix footprint
 $Comp
 L Regulator_Linear:TPS74801VSON U502
 U 1 1 5C3AB5BE
@@ -594,8 +592,6 @@ F 3 "" H 7800 3200 50  0001 C CNN
 	1    7800 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 6400 3700 0    50   ~ 0
-TODO: fix completely broken footprint
 Wire Wire Line
 	7500 2600 7800 2600
 Wire Wire Line
