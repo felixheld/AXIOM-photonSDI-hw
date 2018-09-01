@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:AXIOM-photonSDI-hw-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 11
+Sheet 1 1
 Title "AXIOM-photonSDI-hw"
 Date ""
 Rev ""
@@ -113,14 +112,12 @@ L Device:Crystal_GND24 Y401
 U 1 1 5B47D8CB
 P 5700 2200
 F 0 "Y401" H 5891 2246 50  0000 L CNN
-F 1 "Crystal_GND24" H 5891 2155 50  0000 L CNN
+F 1 "CX3225SB54000D0WPSC1" H 5250 2450 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 5700 2200 50  0001 C CNN
 F 3 "~" H 5700 2200 50  0001 C CNN
 	1    5700 2200
 	1    0    0    -1  
 $EndComp
-Text Notes 4650 1900 0    50   ~ 0
-TODO: verify crystal package and add part number
 Wire Wire Line
 	6900 1600 6900 1900
 Wire Wire Line
