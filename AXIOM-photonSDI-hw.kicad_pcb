@@ -8038,7 +8038,7 @@
     (fp_text reference U402 (at -3.140714 -5.034286 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value Si5342 (at 0 4.875 180) (layer F.Fab)
+    (fp_text value Si5342B (at 0 4.875 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -2.5 -3.5) (end -3.5 -2.5) (layer F.Fab) (width 0.15))
