@@ -1356,7 +1356,7 @@
     (fp_text reference U601 (at 7.725 -13.275 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value XC7A35T-FGG484 (at -0.025001 14.2825 90) (layer F.Fab)
+    (fp_text value XC7A35T-2FGG484 (at -0.025001 14.2825 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -11.5 -10.5) (end -11.5 -10.5) (layer F.Fab) (width 0.12))
