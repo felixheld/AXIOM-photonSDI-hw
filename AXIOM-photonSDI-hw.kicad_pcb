@@ -10192,7 +10192,7 @@
     (fp_text reference U401 (at 0 -2.45 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DSC6001CI1A-025.0000 (at 0 2.45 270) (layer F.Fab)
+    (fp_text value DSC6001CE2A-025.0000 (at 0 2.45 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 0 0 270) (layer F.Fab)
