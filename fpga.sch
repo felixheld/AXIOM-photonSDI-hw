@@ -959,9 +959,9 @@ L Memory_Flash:M25PX32-VMW U602
 U 1 1 5AFE4F5D
 P 19500 12300
 F 0 "U602" H 20141 12346 50  0000 L CNN
-F 1 "S25FL127S" H 20141 12255 50  0000 L CNN
+F 1 "S25FL127SABMFI10" H 20141 12255 50  0000 L CNN
 F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 20150 12350 50  0001 C CNN
-F 3 "https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf" H 19650 12200 50  0001 C CNN
+F 3 "" H 19650 12200 50  0001 C CNN
 	1    19500 12300
 	1    0    0    -1  
 $EndComp
@@ -1907,8 +1907,6 @@ NoConn ~ 7500 4400
 NoConn ~ 7500 4500
 Wire Wire Line
 	21500 5200 21600 5200
-Text Notes 18800 11650 0    50   ~ 0
-TODO: duplicate symbot, so it matches the device
 NoConn ~ 21500 3300
 NoConn ~ 21500 3700
 Wire Wire Line
