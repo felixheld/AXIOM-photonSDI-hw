@@ -938,4 +938,6 @@ NoConn ~ 2500 1300
 NoConn ~ 2500 1400
 NoConn ~ 4000 1900
 NoConn ~ 4000 2000
+Text Notes 2200 7700 0    50   ~ 0
+if not otherwise specified, all capacitors need to have a voltage rating of at least 6.3V
 $EndSCHEMATC
