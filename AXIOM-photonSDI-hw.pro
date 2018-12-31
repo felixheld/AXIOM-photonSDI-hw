@@ -1,6 +1,6 @@
-update=2018 December 30, Sunday 19:04:22
+update=2018 December 31, Monday 01:19:11
 version=1
-last_client=pcbnew
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=AXIOM-photonSDI-hw.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0635
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=differential

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:AXIOM-photonSDI-hw-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -162,20 +162,17 @@ Wire Wire Line
 	7800 2500 7800 2800
 Wire Wire Line
 	7700 2800 7800 2800
-NoConn ~ 7700 4300
-NoConn ~ 7700 4200
-NoConn ~ 7700 4100
 Wire Wire Line
-	4400 4300 4000 4300
+	8100 4300 7700 4300
 Wire Wire Line
-	4400 4200 4000 4200
+	8100 4200 7700 4200
 Wire Wire Line
-	4400 4100 4000 4100
-Text Label 4400 4100 2    50   ~ 0
+	8100 4100 7700 4100
+Text Label 8100 4100 2    50   ~ 0
 VCC_I2C
-Text Label 4400 4200 2    50   ~ 0
+Text Label 8100 4200 2    50   ~ 0
 SCL
-Text Label 4400 4300 2    50   ~ 0
+Text Label 8100 4300 2    50   ~ 0
 SDA
 $Comp
 L Memory_EEPROM:24LC04 U1001
@@ -704,34 +701,9 @@ F 3 "" H 7000 5200 50  0001 C CNN
 	1    7000 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C1007
-U 1 1 5B9999F2
-P 7400 5050
-F 0 "C1007" H 7515 5096 50  0000 L CNN
-F 1 "100n" H 7515 5005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 4900 50  0001 C CNN
-F 3 "~" H 7400 5050 50  0001 C CNN
-	1    7400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR01011
-U 1 1 5B9999F8
-P 7400 5200
-F 0 "#PWR01011" H 7400 4950 50  0001 C CNN
-F 1 "GND" H 7405 5027 50  0000 C CNN
-F 2 "" H 7400 5200 50  0001 C CNN
-F 3 "" H 7400 5200 50  0001 C CNN
-	1    7400 5200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6600 4900 7000 4900
 Connection ~ 6600 4900
-Wire Wire Line
-	7000 4900 7400 4900
-Connection ~ 7000 4900
 Text Label 6000 4900 0    50   ~ 0
 S_LVDS_VCCIO
 Text Notes 3500 7150 0    50   ~ 0
@@ -766,4 +738,7 @@ F 3 "" H 4600 5200 50  0001 C CNN
 	1    4600 5200
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4000 4100
+NoConn ~ 4000 4200
+NoConn ~ 4000 4300
 $EndSCHEMATC

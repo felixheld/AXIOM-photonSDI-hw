@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Clocking_Silabs:Si5342
+# Clocking_Silabs_Si5342
 #
-DEF Clocking_Silabs:Si5342 U 0 40 Y Y 1 F N
+DEF Clocking_Silabs_Si5342 U 0 40 Y Y 1 F N
 F0 "U" -600 -1700 50 H V C CNN
-F1 "Clocking_Silabs:Si5342" 550 -1700 50 H V C CNN
+F1 "Clocking_Silabs_Si5342" 550 -1700 50 H V C CNN
 F2 "" 100 500 50 H I C CNN
 F3 "" 100 500 50 H I C CNN
 DRAW
@@ -57,11 +57,11 @@ X VDDA 9 -200 1600 100 D 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_Coaxial
+# Connector_Conn_Coaxial
 #
-DEF Connector:Conn_Coaxial J 0 40 Y N 1 F N
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Connector:Conn_Coaxial" 115 0 50 V V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -82,11 +82,11 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_apertus:pcie36_axiom
+# Connector_apertus_pcie36_axiom
 #
-DEF Connector_apertus:pcie36_axiom J 0 40 Y Y 1 F N
+DEF Connector_apertus_pcie36_axiom J 0 40 Y Y 1 F N
 F0 "J" 0 -1050 50 H V C CNN
-F1 "Connector_apertus:pcie36_axiom" 0 1050 50 H V C CNN
+F1 "Connector_apertus_pcie36_axiom" 0 1050 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -131,11 +131,11 @@ X IO5 B9 500 -100 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Device_C
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -149,11 +149,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Crystal_GND24
+# Device_Crystal_GND24
 #
-DEF Device:Crystal_GND24 Y 0 40 Y N 1 F N
+DEF Device_Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
-F1 "Device:Crystal_GND24" 125 125 50 H V L CNN
+F1 "Device_Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -176,11 +176,11 @@ X 4 4 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:Ferrite_Bead_Small
+# Device_Ferrite_Bead_Small
 #
-DEF Device:Ferrite_Bead_Small L 0 0 N Y 1 F N
+DEF Device_Ferrite_Bead_Small L 0 0 N Y 1 F N
 F0 "L" 75 50 50 H V L CNN
-F1 "Device:Ferrite_Bead_Small" 75 -50 50 H V L CNN
+F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -197,11 +197,11 @@ X ~ 2 0 -100 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED
+# Device_LED
 #
-DEF Device:LED D 0 40 N N 1 F N
+DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -237,11 +237,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# FPGA_Xilinx_Artix7:XC7A35T-FGG484
+# FPGA_Xilinx_Artix7_XC7A35T-FGG484
 #
-DEF FPGA_Xilinx_Artix7:XC7A35T-FGG484 U 0 40 Y Y 7 L N
+DEF FPGA_Xilinx_Artix7_XC7A35T-FGG484 U 0 40 Y Y 7 L N
 F0 "U" 0 50 50 H V C CNN
-F1 "FPGA_Xilinx_Artix7:XC7A35T-FGG484" 0 -50 50 H V C CNN
+F1 "FPGA_Xilinx_Artix7_XC7A35T-FGG484" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -704,11 +704,11 @@ X GND Y5 1000 -2300 250 L 50 50 7 1 W
 ENDDRAW
 ENDDEF
 #
-# Interface_SDI:GS12241
+# Interface_SDI_GS12241
 #
-DEF Interface_SDI:GS12241 U 0 40 Y Y 1 F N
+DEF Interface_SDI_GS12241 U 0 40 Y Y 1 F N
 F0 "U" -900 850 50 H V C CNN
-F1 "Interface_SDI:GS12241" 800 850 50 H V C CNN
+F1 "Interface_SDI_GS12241" 800 850 50 H V C CNN
 F2 "" -50 -100 50 H I C CNN
 F3 "" -50 -100 50 H I C CNN
 DRAW
@@ -751,11 +751,11 @@ X VEE_SDI 8 -100 -900 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Interface_SDI:GS12281
+# Interface_SDI_GS12281
 #
-DEF Interface_SDI:GS12281 U 0 40 Y Y 1 F N
+DEF Interface_SDI_GS12281 U 0 40 Y Y 1 F N
 F0 "U" -900 850 50 H V C CNN
-F1 "Interface_SDI:GS12281" 800 850 50 H V C CNN
+F1 "Interface_SDI_GS12281" 800 850 50 H V C CNN
 F2 "" -50 -100 50 H I C CNN
 F3 "" -50 -100 50 H I C CNN
 DRAW
@@ -800,11 +800,11 @@ X VEE_DDI 8 -100 -900 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Memory_EEPROM:24LC04
+# Memory_EEPROM_24LC04
 #
-DEF Memory_EEPROM:24LC04 U 0 20 Y Y 1 F N
+DEF Memory_EEPROM_24LC04 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "Memory_EEPROM:24LC04" 100 -250 50 H V L CNN
+F1 "Memory_EEPROM_24LC04" 100 -250 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 24LC02 24LC00 24LC04 24LC08 24LC01 24LC512 24LC64 24LC1025 24LC32 24LC256 24LC128 CAT24C256
@@ -827,11 +827,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Memory_Flash:M25PX32-VMW
+# Memory_Flash_M25PX32-VMW
 #
-DEF Memory_Flash:M25PX32-VMW U 0 40 Y Y 1 F N
+DEF Memory_Flash_M25PX32-VMW U 0 40 Y Y 1 F N
 F0 "U" -400 400 50 H V C CNN
-F1 "Memory_Flash:M25PX32-VMW" 300 -400 50 H V C CNN
+F1 "Memory_Flash_M25PX32-VMW" 300 -400 50 H V C CNN
 F2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" 650 50 50 H I C CNN
 F3 "" 150 -100 50 H I C CNN
 $FPLIST
@@ -850,11 +850,11 @@ X VCC 8 0 500 150 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Oscillator:DSC60xx
+# Oscillator_DSC60xx
 #
-DEF Oscillator:DSC60xx U 0 40 Y Y 1 F N
+DEF Oscillator_DSC60xx U 0 40 Y Y 1 F N
 F0 "U" -350 -350 50 H V C CNN
-F1 "Oscillator:DSC60xx" 250 -350 50 H V C CNN
+F1 "Oscillator_DSC60xx" 250 -350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -866,11 +866,11 @@ X VDD 4 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Regulator_Linear:TPS74801VSON
+# Regulator_Linear_TPS74801VSON
 #
-DEF Regulator_Linear:TPS74801VSON U 0 40 Y Y 1 F N
+DEF Regulator_Linear_TPS74801VSON U 0 40 Y Y 1 F N
 F0 "U" -250 -350 50 H V C CNN
-F1 "Regulator_Linear:TPS74801VSON" 0 350 50 H V C CNN
+F1 "Regulator_Linear_TPS74801VSON" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -889,11 +889,11 @@ X OUT 9 400 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# Regulator_Switching:TPS82085
+# Regulator_Switching_TPS82085
 #
-DEF Regulator_Switching:TPS82085 U 0 40 Y Y 1 F N
+DEF Regulator_Switching_TPS82085 U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "Regulator_Switching:TPS82085" 0 350 50 H V C CNN
+F1 "Regulator_Switching_TPS82085" 0 350 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -910,11 +910,11 @@ X GND 9 0 -400 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# Video:LMH1981
+# Video_LMH1981
 #
-DEF Video:LMH1981 U 0 40 Y Y 1 F N
+DEF Video_LMH1981 U 0 40 Y Y 1 F N
 F0 "U" -350 -400 50 H V C CNN
-F1 "Video:LMH1981" 250 -400 50 H V C CNN
+F1 "Video_LMH1981" 250 -400 50 H V C CNN
 F2 "" 0 -250 50 H I C CNN
 F3 "" 0 -250 50 H I C CNN
 $FPLIST
@@ -939,11 +939,11 @@ X VFOUT 9 500 50 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -952,11 +952,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:PWR_FLAG
+# power_PWR_FLAG
 #
-DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power:PWR_FLAG" 0 150 50 H V C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
