@@ -1,6 +1,6 @@
-update=2018 December 31, Monday 01:19:11
+update=2019 January 17, Thursday 17:28:24
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.0635
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/1]
 Name=differential
