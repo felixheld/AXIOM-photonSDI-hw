@@ -23,7 +23,7 @@ F 1 "LED" H 4441 4725 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4450 4600 50  0001 C CNN
 F 3 "~" H 4450 4600 50  0001 C CNN
 	1    4450 4600
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D803
@@ -34,7 +34,7 @@ F 1 "LED" H 4441 4325 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4450 4200 50  0001 C CNN
 F 3 "~" H 4450 4200 50  0001 C CNN
 	1    4450 4200
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D802
@@ -45,7 +45,7 @@ F 1 "LED" H 4441 3925 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4450 3800 50  0001 C CNN
 F 3 "~" H 4450 3800 50  0001 C CNN
 	1    4450 3800
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D801
@@ -56,51 +56,7 @@ F 1 "LED" H 4441 3525 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 4450 3400 50  0001 C CNN
 F 3 "~" H 4450 3400 50  0001 C CNN
 	1    4450 3400
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR0804
-U 1 1 5AFE2D24
-P 4600 4600
-F 0 "#PWR0804" H 4600 4350 50  0001 C CNN
-F 1 "GND" V 4605 4472 50  0000 R CNN
-F 2 "" H 4600 4600 50  0001 C CNN
-F 3 "" H 4600 4600 50  0001 C CNN
-	1    4600 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0801
-U 1 1 5AFE2D74
-P 4600 3400
-F 0 "#PWR0801" H 4600 3150 50  0001 C CNN
-F 1 "GND" V 4605 3272 50  0000 R CNN
-F 2 "" H 4600 3400 50  0001 C CNN
-F 3 "" H 4600 3400 50  0001 C CNN
-	1    4600 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0802
-U 1 1 5AFE2D87
-P 4600 3800
-F 0 "#PWR0802" H 4600 3550 50  0001 C CNN
-F 1 "GND" V 4605 3672 50  0000 R CNN
-F 2 "" H 4600 3800 50  0001 C CNN
-F 3 "" H 4600 3800 50  0001 C CNN
-	1    4600 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0803
-U 1 1 5AFE2DC6
-P 4600 4200
-F 0 "#PWR0803" H 4600 3950 50  0001 C CNN
-F 1 "GND" V 4605 4072 50  0000 R CNN
-F 2 "" H 4600 4200 50  0001 C CNN
-F 3 "" H 4600 4200 50  0001 C CNN
-	1    4600 4200
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R801
@@ -190,6 +146,28 @@ Text Label 4000 4200 0    50   ~ 0
 LED2_R
 Text Label 4000 4600 0    50   ~ 0
 LED3_R
+Text HLabel 3250 2850 0    50   Input ~ 0
++1V8
+Wire Wire Line
+	3500 2850 3250 2850
+Text Label 3500 2850 2    50   ~ 0
++1V8
+Wire Wire Line
+	4850 3400 4600 3400
+Text Label 4850 3400 2    50   ~ 0
++1V8
+Wire Wire Line
+	4850 3800 4600 3800
+Text Label 4850 3800 2    50   ~ 0
++1V8
+Wire Wire Line
+	4850 4200 4600 4200
+Text Label 4850 4200 2    50   ~ 0
++1V8
+Wire Wire Line
+	4850 4600 4600 4600
+Text Label 4850 4600 2    50   ~ 0
++1V8
 Wire Bus Line
 	3400 3150 3400 4600
 $EndSCHEMATC

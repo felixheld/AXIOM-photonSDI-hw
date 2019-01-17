@@ -220,11 +220,12 @@ $EndComp
 Text Label 1550 1000 2    50   ~ 0
 SDI_IN
 $Sheet
-S 9700 3950 600  300 
+S 9700 3950 600  500 
 U 5AFE2BD2
 F0 "LEDs" 50
 F1 "leds.sch" 50
 F2 "LED[0..3]" I L 9700 4100 50 
+F3 "+1V8" I L 9700 4300 50 
 $EndSheet
 $Sheet
 S 7400 2500 900  1300
@@ -940,4 +941,8 @@ NoConn ~ 4000 1900
 NoConn ~ 4000 2000
 Text Notes 2200 7700 0    50   ~ 0
 if not otherwise specified, all capacitors need to have a voltage rating of at least 6.3V
+Wire Wire Line
+	9400 4300 9700 4300
+Text Label 9400 4300 0    50   ~ 0
++1V8
 $EndSCHEMATC
