@@ -565,14 +565,6 @@ Text Label 900  5700 0    50   ~ 0
 Text Label 8300 2900 2    50   ~ 0
 S_LVDS_VCCIO
 NoConn ~ 7700 3000
-NoConn ~ 7700 3300
-NoConn ~ 7700 3400
-NoConn ~ 7700 3500
-NoConn ~ 7700 3600
-NoConn ~ 7700 3700
-NoConn ~ 7700 3800
-NoConn ~ 7700 3900
-NoConn ~ 7700 4000
 Text Notes 8450 2700 0    50   ~ 0
 swapped
 Text Notes 5950 3000 2    50   ~ 0
@@ -716,4 +708,27 @@ NoConn ~ 4000 4200
 NoConn ~ 4000 4300
 Wire Wire Line
 	2900 4900 3400 4900
+Text HLabel 7800 3300 2    50   Output ~ 0
+PWREN10
+Text HLabel 7800 3400 2    50   Output ~ 0
+~INIT
+Text HLabel 7800 3800 2    50   Output ~ 0
+PWREN135
+Text HLabel 7800 3900 2    50   Output ~ 0
+PWREN18
+Text HLabel 7800 3500 2    50   Input ~ 0
+DONE
+Wire Wire Line
+	7700 3300 7800 3300
+Wire Wire Line
+	7800 3400 7700 3400
+Wire Wire Line
+	7800 3500 7700 3500
+Wire Wire Line
+	7800 3800 7700 3800
+Wire Wire Line
+	7700 3900 7800 3900
+NoConn ~ 7700 4000
+NoConn ~ 7700 3600
+NoConn ~ 7700 3700
 $EndSCHEMATC

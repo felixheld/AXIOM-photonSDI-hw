@@ -1285,25 +1285,23 @@ Text Label 15700 14000 2    50   ~ 0
 $Comp
 L Device:R R602
 U 1 1 5B3AC428
-P 16500 13650
-F 0 "R602" H 16570 13696 50  0000 L CNN
-F 1 "330R" H 16570 13605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 16430 13650 50  0001 C CNN
-F 3 "~" H 16500 13650 50  0001 C CNN
-	1    16500 13650
+P 16500 13550
+F 0 "R602" H 16570 13596 50  0000 L CNN
+F 1 "330R" H 16570 13505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 16430 13550 50  0001 C CNN
+F 3 "~" H 16500 13550 50  0001 C CNN
+	1    16500 13550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15300 13800 16500 13800
 $Comp
 L Device:R R603
 U 1 1 5B3F3344
-P 16900 13650
-F 0 "R603" H 16970 13696 50  0000 L CNN
-F 1 "4k7" H 16970 13605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 16830 13650 50  0001 C CNN
-F 3 "~" H 16900 13650 50  0001 C CNN
-	1    16900 13650
+P 16900 13550
+F 0 "R603" H 16970 13596 50  0000 L CNN
+F 1 "4k7" H 16970 13505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 16830 13550 50  0001 C CNN
+F 3 "~" H 16900 13550 50  0001 C CNN
+	1    16900 13550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1311,12 +1309,12 @@ Wire Wire Line
 $Comp
 L Device:R R604
 U 1 1 5B416F10
-P 17300 13650
-F 0 "R604" H 17370 13696 50  0000 L CNN
-F 1 "4k7" H 17370 13605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 17230 13650 50  0001 C CNN
-F 3 "~" H 17300 13650 50  0001 C CNN
-	1    17300 13650
+P 17300 13550
+F 0 "R604" H 17370 13596 50  0000 L CNN
+F 1 "4k7" H 17370 13505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 17230 13550 50  0001 C CNN
+F 3 "~" H 17300 13550 50  0001 C CNN
+	1    17300 13550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1406,19 +1404,19 @@ Text Label 1300 2500 0    50   ~ 0
 Text Label 1900 1200 2    50   ~ 0
 +1V0
 Wire Wire Line
-	16500 13500 16900 13500
+	16500 13400 16900 13400
 Wire Wire Line
-	16900 13500 17300 13500
-Connection ~ 16900 13500
+	16900 13400 17300 13400
+Connection ~ 16900 13400
 Wire Wire Line
-	17300 13500 17500 13500
-Connection ~ 17300 13500
-Text Label 17500 13500 2    50   ~ 0
+	17300 13400 17500 13400
+Connection ~ 17300 13400
+Text Label 17500 13400 2    50   ~ 0
 +3V3
 Wire Wire Line
-	16900 13900 16900 13800
+	16900 13900 16900 13700
 Wire Wire Line
-	17300 14000 17300 13800
+	17300 14000 17300 13700
 Text Label 14600 11900 0    50   ~ 0
 +3V3
 Wire Wire Line
@@ -1942,6 +1940,22 @@ NoConn ~ 21500 5000
 NoConn ~ 21500 5100
 Wire Wire Line
 	21500 6700 21600 6700
+Text Notes 14850 8050 0    50   ~ 0
+the LEDs are connected to the +3V3 rail,\nbut the voltage difference is only 1V5\nand the resistor is rather big,\nso this shouldn’t cause problems
+Text HLabel 17600 13900 2    50   Input ~ 0
+~INIT
+Wire Wire Line
+	16900 13900 17600 13900
+Connection ~ 16900 13900
+Text HLabel 17600 13800 2    50   Output ~ 0
+DONE
+Wire Wire Line
+	15300 13800 16500 13800
+Wire Wire Line
+	16500 13700 16500 13800
+Connection ~ 16500 13800
+Wire Wire Line
+	16500 13800 17600 13800
 Wire Bus Line
 	14500 8600 14500 8800
 Wire Bus Line
@@ -1950,6 +1964,4 @@ Wire Bus Line
 	14500 8300 14500 8500
 Wire Bus Line
 	14500 7800 14500 8200
-Text Notes 14850 8050 0    50   ~ 0
-the LEDs are connected to the +3V3 rail,\nbut the voltage difference is only 1V5\nand the resistor is rather big,\nso this shouldn’t cause problems
 $EndSCHEMATC
