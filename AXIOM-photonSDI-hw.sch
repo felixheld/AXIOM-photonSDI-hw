@@ -225,7 +225,7 @@ U 5AFE2BD2
 F0 "LEDs" 50
 F1 "leds.sch" 50
 F2 "LED[0..3]" I L 9700 4100 50 
-F3 "+1V8" I L 9700 4300 50 
+F3 "+3V3" I L 9700 4300 50 
 $EndSheet
 $Sheet
 S 7400 2500 900  1300
@@ -944,5 +944,5 @@ if not otherwise specified, all capacitors need to have a voltage rating of at l
 Wire Wire Line
 	9400 4300 9700 4300
 Text Label 9400 4300 0    50   ~ 0
-+1V8
++3V3
 $EndSCHEMATC

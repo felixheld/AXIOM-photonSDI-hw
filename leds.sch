@@ -147,27 +147,27 @@ LED2_R
 Text Label 4000 4600 0    50   ~ 0
 LED3_R
 Text HLabel 3250 2850 0    50   Input ~ 0
-+1V8
++3V3
 Wire Wire Line
 	3500 2850 3250 2850
 Text Label 3500 2850 2    50   ~ 0
-+1V8
++3V3
 Wire Wire Line
 	4850 3400 4600 3400
 Text Label 4850 3400 2    50   ~ 0
-+1V8
++3V3
 Wire Wire Line
 	4850 3800 4600 3800
 Text Label 4850 3800 2    50   ~ 0
-+1V8
++3V3
 Wire Wire Line
 	4850 4200 4600 4200
 Text Label 4850 4200 2    50   ~ 0
-+1V8
++3V3
 Wire Wire Line
 	4850 4600 4600 4600
 Text Label 4850 4600 2    50   ~ 0
-+1V8
++3V3
 Wire Bus Line
 	3400 3150 3400 4600
 $EndSCHEMATC

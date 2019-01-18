@@ -1950,4 +1950,6 @@ Wire Bus Line
 	14500 8300 14500 8500
 Wire Bus Line
 	14500 7800 14500 8200
+Text Notes 14850 8050 0    50   ~ 0
+the LEDs are connected to the +3V3 rail,\nbut the voltage difference is only 1V5\nand the resistor is rather big,\nso this shouldn’t cause problems
 $EndSCHEMATC
